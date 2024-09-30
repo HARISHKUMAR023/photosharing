@@ -34,8 +34,8 @@ const folderData: Folder = {
 
 const Aside: React.FC = () => {
   return (
-    <aside className="bg-gray-800 text-white w-64 p-4 h-screen">
-      <h2 className="text-xl font-bold mb-4">Folders</h2>
+    <aside className="bg-gray-800 text-white w-64 p-4 h-full rounded-md ">
+      <h2 className="text-xl font-bold mb-4 ">Folders</h2>
       <FolderTree folder={folderData} />
     </aside>
   );

@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Aside from '../../Components/Aside'
+import Topbar from '../../Components/Top'
 
 interface Album {
   _id: string;
@@ -28,9 +29,10 @@ const Dashboard: React.FC = () => {
   };
 
   return (
-    <div className="p-6 flex">
+    <div className="p-2 gap-2 flex h-screen">
       <Aside />
-      <div>
+      <div className='w-full'>
+        <Topbar />
       <h1 className="text-3xl font-bold mb-4">Your Albums</h1>
 
       {/* Album Creation Form */}
