@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react';
 import { FaSearch, FaBell, FaUser, FaEllipsisV } from 'react-icons/fa';
 
@@ -9,7 +10,7 @@ const TopBar = () => {
   };
 
   return (
-    <div className="w-full h-12 bg-gray-800 flex items-center px-4 shadow-md">
+    <div className="w-full h-12 bg-white/5 border border-secondary/50 flex items-center px-4 rounded-md shadow-md">
       {/* Left: Search bar */}
       <div className="flex items-center">
         <FaSearch

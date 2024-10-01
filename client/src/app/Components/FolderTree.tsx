@@ -1,5 +1,5 @@
 // src/components/FolderTree.tsx
-
+'use client'
 import React, { useState } from 'react';
 import { FaFolder, FaFolderOpen, FaFileAlt } from 'react-icons/fa';
 

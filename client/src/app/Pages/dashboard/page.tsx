@@ -2,8 +2,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Aside from '../../Components/Aside'
-import Topbar from '../../Components/Top'
+
 
 interface Album {
   _id: string;
@@ -29,14 +28,12 @@ const Dashboard: React.FC = () => {
   };
 
   return (
-    <div className="p-2 gap-2 flex h-screen">
-      <Aside />
-      <div className='w-full'>
-        <Topbar />
+    <div className=" gap-2 w-full">
+     
       <h1 className="text-3xl font-bold mb-4">Your Albums</h1>
 
       {/* Album Creation Form */}
-      <div className="mb-6 bg-white/5 border border-white/50 p-4 shadow rounded-lg">
+      <div className="mb-6 bg-white/5 border border-secondary/50 p-4 shadow rounded-lg w-full">
         <h2 className="text-xl font-bold mb-4">Create New Album</h2>
         <input
           className="mb-2 p-2 w-full border rounded"
@@ -72,7 +69,7 @@ const Dashboard: React.FC = () => {
           </div>
         ))}
       </div></div>
-    </div>
+    
   );
 };
 

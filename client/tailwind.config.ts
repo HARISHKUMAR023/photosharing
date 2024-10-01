@@ -10,18 +10,19 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#3F51B5', // Dark Slate Blue
+          DEFAULT: '#124d54', // dark teal-green
         },
         secondary: {
-          DEFAULT: '#009688', // Teal Green
+          DEFAULT: '#f9744b', // orange
         },
         background: {
+          blue: '#091d26', // dark green-blue
           light: '#F5F5F5',   // Light Gray
           card: '#FFFFFF',    // White
         },
         text: {
-          primary: '#333333', // Charcoal Gray
-          secondary: '#757575', // Medium Gray
+          primary: '#ededed', // Charcoal Gray
+          secondary: '#e1d9cf', // Medium Gray
         },
         error: {
           DEFAULT: '#FF5722', // Red Orange
